@@ -1,6 +1,6 @@
 const UserOutput = (props) => {
 	return (
-		<div className="col-sm-6 col-lg-4 mb-2">
+		<div className="col-sm-6 col-lg-4">
 			<div className="card shadow-sm">
 				<div className="card-body">
 					<p className="card-text">username: {props.username}</p>
