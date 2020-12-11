@@ -1,0 +1,15 @@
+.minw-2r {
+  min-width: 2rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.m-n2 {
+  margin: -.5rem !important;
+}
+
+.m-n1 {
+  margin: -.25rem !important;
+}
