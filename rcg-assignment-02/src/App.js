@@ -40,13 +40,13 @@ const App = () => {
 			<Charbox
 				className="my-4"
 				word={word}
-				clickHandler={(e) => {
+				clickHandler={(e, itemIndex) => {
 					stopPropagation(e);
 					console.log(e);
 					if (e.altKey === true) {
-						doubleCharHandler(index);
+						doubleCharHandler(itemIndex);
 					} else {
-						deleteCharHandler(index);
+						deleteCharHandler(itemIndex);
 					}
 				}}
 			/>

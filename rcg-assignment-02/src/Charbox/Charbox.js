@@ -10,7 +10,7 @@ const Charbox = (props) => {
 							className="minw-2r m-1"
 							key={index}
 							char={char}
-							clickHandler={props.clickHandler}
+							clickHandler={(e) => {props.clickHandler(e, index);}}
 						/>
 					);
 				})}
