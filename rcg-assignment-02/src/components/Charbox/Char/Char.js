@@ -1,6 +1,6 @@
 const Char = (props) => {
 	const isBlank = props.char.trim() === '';
-	const isPunct = '.,;?!'.includes(props.char);
+	const isPunct = '.,;?!/=-:_+\'`|"'.includes(props.char);
 
 	let bgColor = null;
 	if (isBlank) {

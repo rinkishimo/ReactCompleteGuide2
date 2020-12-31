@@ -1,4 +1,4 @@
-const InputForm = (props) => {
+const Cockpit = (props) => {
     const pocetZnakov = props.word ? props.word.length : 0;
     
     const isValidWord = pocetZnakov >= 10
@@ -25,4 +25,4 @@ const InputForm = (props) => {
 	);
 };
 
-export default InputForm;
+export default Cockpit;

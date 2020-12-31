@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 
-import InputForm from "./InputForm/InputForm";
-import Charbox from "./Charbox/Charbox";
+import InputForm from "../components/Cockpit/Cockpit";
+import Charbox from "../components/Charbox/Charbox";
 
 const App = () => {
 	const [word, setWord] = useState("ahojky");
