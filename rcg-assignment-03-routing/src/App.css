@@ -1,0 +1,12 @@
+.green {
+    color: limegreen;
+}
+
+.navlink {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.active {
+    font-weight: bold;
+}
